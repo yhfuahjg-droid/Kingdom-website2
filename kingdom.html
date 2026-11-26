@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEX STORE - PREMIUM NETWORK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kantumruy Pro', sans-serif;
+            background: radial-gradient(circle at top, #231347 0%, #0d0917 55%, #07050c 100%);
+            color: #ffffff;
+            padding-bottom: 84px;
+        }
+        .glass-card {
+            background: rgba(24, 16, 48, 0.85);
+            border: 1px solid rgba(139, 92, 246, 0.25);
+            backdrop-filter: blur(10px);
+        }
+        .glass-card:hover {
+            border-color: rgba(168, 85, 247, 0.7);
+            box-shadow: 0 0 24px rgba(139, 92, 246, 0.25);
+        }
+        .btn-purple {
+            background: linear-gradient(90deg, #6d28d9 0%, #8b5cf6 100%);
+        }
+        .btn-purple:hover {
+            background: linear-gradient(90deg, #7c3aed 0%, #a78bfa 100%);
+        }
+        .badge-best {
+            background: linear-gradient(90deg, #7e22ce 0%, #c026d3 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Top Header -->
+    <header class="sticky top-0 z-30 bg-[#120b24]/90 backdrop-blur-md border-b border-purple-500/20 px-4 py-3">
+        <div class="max-w-3xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <button onclick="showTab('store')" class="w-10 h-10 rounded-xl bg-purple-950/80 border border-purple-500/30 flex items-center justify-center text-purple-200">
+                    ☰
+                </button>
+                <div>
+                    <div class="font-extrabold tracking-wide text-sm md:text-base text-white">ALEX STORE</div>
+                    <div class="text-[10px] tracking-widest text-purple-300/80 uppercase">PREMIUM NETWORK</div>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <a href="https://t.me/alexstore_2" target="_blank"
+                   class="px-3 py-1.5 rounded-xl bg-purple-950/90 border border-purple-500/30 text-xs font-semibold text-purple-200">
+                    🇰🇭 @alexstore_2
+                </a>
+                <div class="w-9 h-9 rounded-full bg-purple-700/40 border border-purple-400/40 flex items-center justify-center font-bold text-sm">
+                    A
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-3xl mx-auto px-4 pt-5 space-y-5">
+
+        <!-- STORE TAB -->
+        <section id="tab-store" class="space-y-5">
+            <!-- Banner / Title -->
+            <div class="glass-card rounded-2xl p-4 sm:p-5">
+                <h1 class="text-xl sm:text-2xl font-extrabold text-white">
+                    មានលក់ VPN Internet លឿនដូចហោះ 🚀
+                </h1>
+                <p class="text-xs sm:text-sm text-purple-200/80 mt-1">
+                    ជ្រើសរើសកញ្ចប់ Unlimited Data ហើយចុច <span class="text-purple-300 font-bold">ទិញ</span> ដើម្បីទាក់ទងទៅ <span class="text-cyan-300 font-bold">@alexstore_2</span>
+                </p>
+                <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-400/30 text-emerald-300 font-semibold">
+                        Only: Metfone and Cellcard
+                    </span>
+                    <span class="px-3 py-1 rounded-full bg-purple-500/15 border border-purple-400/30 text-purple-200 font-semibold">
+                        Contact: @alexstore_2
+                    </span>
+                </div>
+            </div>
+
+            <!-- 8 Pricing Cards (2 Columns like video) -->
+            <div class="grid grid-cols-2 gap-3 sm:gap-4">
+
+                <!-- 7 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">7 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$1</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">= 4,500៛</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> លឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('7ថ្ងៃ 1$ = 4500៛ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 15 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">15 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$2</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">15 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> លឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('15 ថ្ងៃ 2$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 30 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between relative border-purple-400/60">
+                    <span class="badge-best text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-bl-xl rounded-tr-2xl absolute top-0 right-0">
+                        ពេញនិយម
+                    </span>
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">30 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$3</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">30 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> ល្បឿនលឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('30 ថ្ងៃ 3$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 60 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">60 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$5</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">60 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> ល្បឿនលឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('60 ថ្ងៃ 5$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 90 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between relative">
+                    <span class="badge-best text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-bl-xl rounded-tr-2xl absolute top-0 right-0">
+                        សន្សំសំចៃ
+                    </span>
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">90 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$7</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">90 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> ល្បឿនលឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('90 ថ្ងៃ 7$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 120 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">120 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$9</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">120 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> ល្បឿនលឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('120 ថ្ងៃ 9$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 150 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">150 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mt-1">$13</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">150 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> ល្បឿនលឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('150ថ្ងៃ 13$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+                <!-- 365 Days -->
+                <div class="glass-card rounded-2xl p-4 flex flex-col justify-between relative">
+                    <span class="badge-best text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-bl-xl rounded-tr-2xl absolute top-0 right-0">
+                        ១ ឆ្នាំ
+                    </span>
+                    <div>
+                        <div class="text-base sm:text-lg font-bold text-white">365 ថ្ងៃ</div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-amber-300 mt-1">$39</div>
+                        <div class="text-xs text-purple-300 font-semibold mb-3">365 ថ្ងៃ</div>
+                        <ul class="space-y-1.5 text-xs text-slate-200 mb-4">
+                            <li><span class="text-emerald-400">✓</span> Unlimited data</li>
+                            <li><span class="text-emerald-400">✓</span> ល្បឿនលឿនដូចហោះ</li>
+                            <li><span class="text-emerald-400">✓</span> Metfone & Cellcard</li>
+                        </ul>
+                    </div>
+                    <button onclick="buyPlan('365 ថ្ងៃ 39$ unlimited data')"
+                            class="w-full btn-purple text-white font-bold py-2.5 rounded-xl text-sm transition cursor-pointer">
+                        ទិញ
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Bottom Info Footer -->
+            <div class="glass-card rounded-2xl p-4 text-center text-xs text-purple-200/80 space-y-1">
+                <div class="font-bold text-white">មានលក់ VPN Internet លឿនដូចហោះ • Only: Metfone and Cellcard</div>
+                <div>Contact: <a href="https://t.me/alexstore_2" target="_blank" class="text-cyan-300 underline">@alexstore_2</a></div>
+            </div>
+        </section>
+
+        <!-- DASHBOARD TAB -->
+        <section id="tab-dashboard" class="hidden space-y-4">
+            <div class="glass-card rounded-2xl p-5">
+                <h2 class="text-lg font-bold mb-2">ផ្ទាំងគ្រប់គ្រង (Dashboard)</h2>
+                <p class="text-xs text-purple-200/80 mb-4">
+                    សេវាកម្មបើកគណនី និងផ្ញើការកំណត់ VPN ធ្វើឡើងដោយផ្ទាល់តាម Telegram របស់ Admin។
+                </p>
+                <div class="grid grid-cols-2 gap-3 text-xs">
+                    <div class="bg-purple-950/60 border border-purple-500/20 rounded-xl p-3">
+                        <div class="text-purple-300">បណ្តាញគាំទ្រ</div>
+                        <div class="text-sm font-bold text-white mt-1">Metfone & Cellcard</div>
+                    </div>
+                    <div class="bg-purple-950/60 border border-purple-500/20 rounded-xl p-3">
+                        <div class="text-purple-300">ទិន្នន័យ</div>
+                        <div class="text-sm font-bold text-emerald-300 mt-1">Unlimited Data</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVERS TAB -->
+        <section id="tab-servers" class="hidden space-y-3">
+            <div class="glass-card rounded-2xl p-5 space-y-3">
+                <h2 class="text-lg font-bold">ម៉ាស៊ីនមេ (Servers)</h2>
+                <div class="flex items-center justify-between bg-purple-950/60 border border-purple-500/20 rounded-xl p-3 text-xs">
+                    <div>
+                        <div class="font-bold text-white">🇰🇭 Cambodia High Speed</div>
+                        <div class="text-purple-300">Metfone & Cellcard Only</div>
+                    </div>
+                    <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-semibold">Online</span>
+                </div>
+                <div class="flex items-center justify-between bg-purple-950/60 border border-purple-500/20 rounded-xl p-3 text-xs">
+                    <div>
+                        <div class="font-bold text-white">🇸🇬 Singapore Fast Route</div>
+                        <div class="text-purple-300">Unlimited Data</div>
+                    </div>
+                    <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-semibold">Online</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUPPORT TAB -->
+        <section id="tab-support" class="hidden">
+            <div class="glass-card rounded-2xl p-5 text-center space-y-3">
+                <h2 class="text-lg font-bold">ជំនួយ និងទំនាក់ទំនង</h2>
+                <p class="text-xs text-purple-200/80">
+                    ចង់ទិញកញ្ចប់ VPN ឬសាកសួរព័ត៌មានបន្ថែម សូមទាក់ទងមកកាន់ Telegramផ្ទាល់។
+                </p>
+                <a href="https://t.me/alexstore_2" target="_blank"
+                   class="inline-block btn-purple text-white font-bold px-6 py-3 rounded-xl text-sm">
+                    Chat ទៅ @alexstore_2
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bottom Navigation Bar (like video) -->
+    <nav class="fixed bottom-0 inset-x-0 bg-[#120b24]/95 backdrop-blur-md border-t border-purple-500/20 z-30">
+        <div class="max-w-3xl mx-auto grid grid-cols-4 text-center py-2 text-xs">
+            <button onclick="showTab('store')" id="nav-store" class="flex flex-col items-center gap-1 text-purple-300 font-bold cursor-pointer">
+                <span>🛍️</span>
+                <span>ហាង</span>
+            </button>
+            <button onclick="showTab('dashboard')" id="nav-dashboard" class="flex flex-col items-center gap-1 text-slate-400 hover:text-purple-200 cursor-pointer">
+                <span>📊</span>
+                <span>ផ្ទាំងគ្រប់គ្រង</span>
+            </button>
+            <button onclick="showTab('servers')" id="nav-servers" class="flex flex-col items-center gap-1 text-slate-400 hover:text-purple-200 cursor-pointer">
+                <span>🖥️</span>
+                <span>ម៉ាស៊ីនមេ</span>
+            </button>
+            <button onclick="showTab('support')" id="nav-support" class="flex flex-col items-center gap-1 text-slate-400 hover:text-purple-200 cursor-pointer">
+                <span>🎧</span>
+                <span>ជំនួយ</span>
+            </button>
+        </div>
+    </nav>
+
+    <script>
+        function buyPlan(planText) {
+            const msg = `សួស្តី Admin! ខ្ញុំចង់ទិញ៖ ${planText} (Only: Metfone and cellcard)`;
+            const url = `https://t.me/alexstore_2?text=${encodeURIComponent(msg)}`;
+            window.open(url, '_blank');
+        }
+
+        function showTab(tabName) {
+            const tabs = ['store', 'dashboard', 'servers', 'support'];
+            tabs.forEach(t => {
+                document.getElementById(`tab-${t}`).classList.add('hidden');
+                const nav = document.getElementById(`nav-${t}`);
+                nav.classList.remove('text-purple-300', 'font-bold');
+                nav.classList.add('text-slate-400');
+            });
+
+            document.getElementById(`tab-${tabName}`).classList.remove('hidden');
+            const activeNav = document.getElementById(`nav-${tabName}`);
+            activeNav.classList.remove('text-slate-400');
+            activeNav.classList.add('text-purple-300', 'font-bold');
+        }
+    </script>
+</body>
+  </html>
+                  
